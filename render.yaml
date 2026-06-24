@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: bfhl-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: BFHL_USER_ID
+        sync: false
+      - key: BFHL_EMAIL
+        sync: false
+      - key: BFHL_ROLL_NUMBER
+        sync: false
