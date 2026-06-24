@@ -5,8 +5,8 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: BFHL_USER_ID
-        sync: false
+        value: shreeya_02082005
       - key: BFHL_EMAIL
-        sync: false
+        value: shreeya1132.be23@chitkara.edu.in
       - key: BFHL_ROLL_NUMBER
-        sync: false
+        value: "2310991132"
